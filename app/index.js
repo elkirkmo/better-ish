@@ -17,6 +17,14 @@ const dateLine = document.getElementById("date");
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours();
+  if (preferences.clockDisplay === "12h") {
+    // 12h format
+    hours = hours % 12 || 12;
+  } else {
+    // 24h format
+    hours = util.zeroPad(hours);
+  }
+
   let mins = util.zeroPad(today.getMinutes());
   hour.text = `${mins > 54 ? util.convertHourToText(hours + 1) : util.convertHourToText(hours)}`;
   minutes.text = `${util.convertMinuteToText(mins) ? util.convertMinuteToText(mins) + '~ish' : 'ish'}`;
