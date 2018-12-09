@@ -1,0 +1,6 @@
+<svg id="bg" class="background">
+  <text id="hours" />
+  <text id="minutes" />
+  <text id="exact" />
+  <text id="date" />
+</svg>

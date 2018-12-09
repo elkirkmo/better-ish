@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "e0f29821-bc7a-489d-a16c-cdf2f86f56ec",
+    "appType": "clockface",
+    "appDisplayName": "Better ish",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Better ish"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}
