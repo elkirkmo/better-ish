@@ -11,3 +11,5 @@ If you need to know precise time (to the minute), simply tap on the display to t
 1.0.0
 
 Inital release
+[Privacy Policy](https://elkirkmo.github.io/better-ish/privacy-policy)
+[Terms And Conditions](https://elkirkmo.github.io/better-ish/terms-and-conditions)
