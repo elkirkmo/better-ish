@@ -7,9 +7,9 @@ export function zeroPad(i) {
 }
 
 export function convertHourToText(j) {
-  const k = j > 12 ? j - 12 : j;
-  const a = ['twelve', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
-  return a[Math.abs(k)];
+  const a = ['midnight', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty one', 'twenty two', 'twenty three'];
+  
+  return a[Math.abs(j)];
 }
 
 export function convertMinuteToText(l) {

@@ -27,6 +27,7 @@ clock.ontick = (evt) => {
   
   let mins = util.zeroPad(today.getMinutes());
   hour.text = `${mins > 54 ? util.convertHourToText(+hours + 1) : util.convertHourToText(+hours)}`;
+  +hours > 16 ? hour.style.fontSize = 54 : hour.style.fontSize = 80;
   minutes.text = `${util.convertMinuteToText(mins) ? util.convertMinuteToText(mins) + '~ish' : 'ish'}`;
   exact.text = `${hours}:${mins}`;
   dateLine.text = `${util.monthName(today.getMonth())} ${today.getDate()}, ${today.getFullYear()}`;
