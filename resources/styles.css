@@ -17,6 +17,10 @@
   fill: white;
 }
 
+#hours.twentyfour {
+  font-size: 10;
+}
+
 #minutes {
   font-size: 55;
   font-family: System-Bold;

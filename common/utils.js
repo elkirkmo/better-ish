@@ -7,10 +7,9 @@ export function zeroPad(i) {
 }
 
 export function convertHourToText(j) {
-  const k = j > 12 ? j - 12 : j;
-  console.log(j);
-  const a = ['twelve', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
-  return a[k];
+  const a = ['midnight', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty one', 'twenty two', 'twenty three'];
+  
+  return a[Math.abs(j)];
 }
 
 export function convertMinuteToText(l) {
@@ -26,12 +25,9 @@ export function convertMinuteToText(l) {
 }
 
 export function monthName(num) {
-  const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
+  const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   return monthNames[num];
 }
-
 
 export function showHide(arr) {
   arr.forEach(v => v.style.display === "none" ? v.style.display = "inline" : v.style.display = "none");

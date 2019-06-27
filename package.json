@@ -14,9 +14,10 @@
       "en": {
         "name": "Better ish"
       }
-    }
+    },
+    "defaultLanguage": "en-US"
   },
   "devDependencies": {
-    "@fitbit/sdk": "~1.0.0"
+    "@fitbit/sdk": "~3.0.0"
   }
 }
