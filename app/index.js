@@ -7,7 +7,6 @@ import * as util from "../common/utils";
 clock.granularity = "minutes";
 const bg = document.getElementById('bg');
 
-
 // Get a handle on the <text> element
 const hour = document.getElementById("hours");
 const minutes = document.getElementById("minutes");

@@ -8,6 +8,19 @@ If you need to know precise time (to the minute), simply tap on the display to t
 
 ## Changelog
 
-1.0.0
+### 1.1.1
+
+- Fixed an issue where "Thirteen~ish" was being displayed on 12h
+
+### 1.1.0
+
+- Added support for hours to convert to text in 24h mode
+
+### 1.0.1
+
+- Updated to latest version of FitBit SDK (3.0.0)
+- Fixed an issue where text wasn't showing correctly for 24h time
+
+### 1.0.0
 
 Inital release
