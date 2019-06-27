@@ -8,6 +8,10 @@ If you need to know precise time (to the minute), simply tap on the display to t
 
 ## Changelog
 
+### 1.1.1
+
+- Fixed an issue where "Thirteen~ish" was being displayed on 12h
+
 ### 1.1.0
 
 - Added support for hours to convert to text in 24h mode
