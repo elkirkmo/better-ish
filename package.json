@@ -17,6 +17,6 @@
     }
   },
   "devDependencies": {
-    "@fitbit/sdk": "~3.0.0"
+    "@fitbit/sdk": "~5.0.0"
   }
 }
