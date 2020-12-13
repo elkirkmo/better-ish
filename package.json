@@ -1,23 +1,30 @@
 {
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
   "fitbit": {
     "appUUID": "e0f29821-bc7a-489d-a16c-cdf2f86f56ec",
     "appType": "clockface",
     "appDisplayName": "Better ish",
     "iconFile": "resources/icon.png",
     "wipeColor": "",
-    "requestedPermissions": [],
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
     "buildTargets": [
+      "atlas",
+      "vulcan",
       "higgs",
-      "meson"
+      "meson",
+      "gemini",
+      "mira"
     ],
     "i18n": {
-      "en": {
+      "en-US": {
         "name": "Better ish"
       }
     },
     "defaultLanguage": "en-US"
-  },
-  "devDependencies": {
-    "@fitbit/sdk": "~3.0.0"
   }
 }
